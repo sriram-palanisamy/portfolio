@@ -1,0 +1,36 @@
+.cards_wrapper {
+  height: 15rem;
+  background: #fff;
+  width: 11rem;
+  display: flex;
+  border-radius: 11px;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+}
+.learn_btn {
+  border: 1px solid #37a8eb;
+  color: #37a8eb;
+  border-radius: 10px;
+  background: #fff;
+  padding: 6px 20px;
+}
+
+.learn_btn:hover {
+  color: #fff;
+  border: 1px solid #37a8eb;
+  background: #37a8eb;
+}
+
+.card_wrapper > img {
+  transform: scale(0.8);
+}
+.card_heading {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.card_detail {
+  font-size: 0.8rem;
+}
